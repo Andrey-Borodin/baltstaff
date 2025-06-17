@@ -1,0 +1,168 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f5fa;
+  color: #333;
+}
+header {
+  background-image: url(en/bluewaves_image.jpg);
+  background-size: cover;
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px;
+}
+nav a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+.language-switcher {
+  margin-top: 10px;
+}
+.hero {
+  background-color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.icon {
+  font-size: 50px;
+}
+.page {
+  background-color: white;
+  padding: 60px 20px;
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  flex-direction: column;   /* Элементы сверху вниз */
+}
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+
+
+.services-section {
+  background-image: url(en/worker_photo.jpg);
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: white;
+  position: relative;
+}
+
+.services-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* затемнение фона */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.photo-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.circle-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 4px solid white;
+}
+
+
+
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .icon-row {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .circle-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .services-section .overlay {
+    padding: 20px;
+  }
+
+  form input, form textarea {
+    font-size: 1rem;
+  }
+}
+
