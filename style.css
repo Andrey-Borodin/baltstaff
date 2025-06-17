@@ -92,7 +92,7 @@ footer {
 
 
 .services-section {
-  background-image: url(en/worker_photo.jpg);
+  background-image: url('images/worker_photo.jpg');
   border-radius: 5%;
   background-size: cover;
   background-position: center;
